@@ -88,6 +88,14 @@
           "Tanchjim Cora"
         ],
         "prefix": "Tanchjim Cora"
+      },
+	  {
+        "name": "Bunny",
+        "file": [
+          "Tanchjim Bunny Analog",
+		  "Tanchjim Bunny DSP"
+        ],
+        "prefix": "Tanchjim Bunny"
       }
     ]
   },
