@@ -31,8 +31,8 @@ const init_phones = ["VagariSense Target","Moondrop DUSK"],// Optional. Which gr
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
-      extraEQBands = 10,                            // Default EQ bands available
-      extraEQBandsMax = 20;                         // Max EQ bands available
+      extraEQBands = 5,                            // Default EQ bands available
+      extraEQBandsMax = 10;                         // Max EQ bands available
 
 // Specify which targets to display
 const targets = [
@@ -46,7 +46,7 @@ const targets = [
 const  preference_bounds_name = "Preference Bounds RAW",  // Preference bounds name
        preference_bounds_dir = "assets/pref_bounds/",  // Preference bounds directory
        preference_bounds_startup = false,              // If true, preference bounds are displayed on startup
-       allowSquigDownload = false,                     // If true, allows download of measurement data
+       allowSquigDownload = true,                     // If true, allows download of measurement data
        PHONE_BOOK = "phone_book.json",                 // Path to phone book JSON file
        default_y_scale = "40db",                       // Default Y scale; values: ["20db", "30db", "40db", "50db", "crin"]
        default_DF_name = "VagariSense",                   // Default RAW DF name
